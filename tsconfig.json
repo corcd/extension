@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "target": "es5",
+    "module": "ESNext",
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.promise",
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018",
+      "es2019",
+      "es2020"
+    ],
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "preserveSymlinks": true,
+    "esModuleInterop": true,
+  },
+  "include": ["*.ts", "plugins/*.ts", "plugins/1.js", "plugins/2.js"],
+  "exclude": ["node_modules"]
+}
